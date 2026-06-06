@@ -22,10 +22,6 @@ class ProductForm
                     ->required()
                     ->numeric()
                     ->prefix('$'),
-                DateTimePicker::make('createdAt')
-                    ->required(),
-                DateTimePicker::make('updatedAt')
-                    ->required(),
             ]);
     }
 }
